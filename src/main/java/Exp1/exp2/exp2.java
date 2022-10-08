@@ -21,7 +21,7 @@ public class exp2 {
     }
 
     public static void counterfeitMoney(List<Double> coins, int begin, int end) {
-        if (coins.size() == 1 || coins.size() == 0) {
+        if (coins.size() <= 1) {
             System.out.println("-1");
         } else {
             int mediumNum = begin + (end - begin) / 2;
