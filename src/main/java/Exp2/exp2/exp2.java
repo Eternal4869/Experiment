@@ -66,5 +66,6 @@ public class exp2 {
                 }
             }
         }
+        System.out.println("结束");
     }
 }
