@@ -10,7 +10,7 @@ public class exp1 {
         Scanner in = new Scanner(System.in);
         System.out.print("一共几堆纸牌 : ");
         int heaps = in.nextInt();
-        if (heaps <= 0) System.out.println("堆数不能小于0");
+        if (heaps <= 0) System.out.println("堆数不能小于等于0");
         else {
             System.out.print("请分别输入" + heaps + "堆纸牌的个数 : ");
             int sum = 0;
